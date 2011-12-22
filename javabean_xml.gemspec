@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = 'javabean_xml'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.date        = '2011-12-22'
   s.summary     = "Small library for interacting with java.beans.{Encoder,Decoder} "
   s.description = "Small library for encoding and decoding xml the way java.beans.{Encoder,Decoder} does it"
-  s.authors     = ["Einar Magnús Boson"]
+  s.authors     = ["Einar Magn&uacute;s Boson"]
   s.email       = 'einar.boson@gmail.com'
   s.files       = Dir["lib/*.rb"]
   s.homepage    = 'http://github.com/einarmagnus/javabean_xml'
