@@ -1,7 +1,7 @@
 require "rubygems"
 require "test/unit"
 require "equivalent-xml"
-require File.expand_path("../../lib/javabean_xml.rb", __FILE__)
+require "javabean_xml.rb"
 class JavabeanXmlTest < Test::Unit::TestCase
   @@test_xml_1 = <<-XML_END.split(/\n/).map{|l|l.gsub(/^(  ){3}/, "")}.join("\n")
       <?xml version="1.0" encoding="UTF-8"?>
